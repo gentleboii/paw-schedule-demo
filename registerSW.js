@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/paw-schedule-demo/sw.js', { scope: '/paw-schedule-demo/' })})}
